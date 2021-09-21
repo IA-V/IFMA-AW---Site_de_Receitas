@@ -1,0 +1,48 @@
+form{
+    margin: 25px;
+}
+
+.Mensagem h4{
+    display: flex;
+    justify-content: center;
+}
+
+#cardapiodiv{
+    background-color: darkgoldenrod;
+    display: flex;
+    justify-content: center;
+}
+
+#btnCalculaTotal{
+    display: flex;
+    justify-content: flex-end;
+}
+
+body{
+    background-color:#DEB887;
+}
+
+#cardapiodiv p{
+    color: cornsilk;
+    font-size: 25px;
+}
+
+.table thead th{
+    text-align: center;
+}
+
+.table tbody td{
+    text-align: center;
+}
+
+.table tbody{
+    font-weight: 600;
+}
+
+#basic-addon1{
+    background-color: rgb(226, 193, 101);
+}
+
+#total tbody{
+    font-weight: 600;
+}

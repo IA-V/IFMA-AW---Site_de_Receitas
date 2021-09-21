@@ -1,0 +1,36 @@
+body{
+    background-color: #3A3B3C;
+}
+
+#resultados{
+    color: rgb(146, 194, 219);
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#inputGroup-sizing-sm{
+    background-color: cadetblue;
+    color: #FFFFFF;
+}
+
+div p{
+    color: rgb(146, 194, 219);
+    font-style: italic;
+    font-size: 25px;
+    text-align: center;
+}
+
+form{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#btnRealizaOperacao{
+    margin-bottom: 10px;
+}
+
+#btnRealizaOperacao{
+    display: flex;
+    justify-content: flex-end;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lanchonete</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div id="cardapiodiv">
+            <p class="font-italic">Cardápio</p>
+        </div>
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Especificação</th>
+                    <th scope="col">Código</th>
+                    <th scope="col">Preço</th>
+                </tr>
+            </thead>
+                <tbody>
+                    <tr>                    
+                        <td>Cachorro quente</td>
+                        <td class="codigo">100</td>
+                        <td>1,20</td>
+                    </tr>
+                    <tr>                        
+                        <td>Bauru simples</td>
+                        <td class="codigo">101</td>
+                        <td>1,30</td>
+                    </tr>
+                    <tr>                        
+                        <td>Bauru com ovo</td>
+                        <td class="codigo">102</td>
+                        <td>1,50</td>
+                    </tr>
+                    <tr>                        
+                        <td>Hambúrguer</td>
+                        <td class="codigo">103</td>
+                        <td>1,20</td>
+                    </tr>
+                    <tr>                        
+                        <td>Cheeseburguer</td>
+                        <td class="codigo">104</td>
+                        <td>1,30</td>
+                    </tr>
+                    <tr>                        
+                        <td>Refrigerante</td>
+                        <td class="codigo">105</td>
+                        <td>1,00</td>
+                    </tr>
+                </tbody>
+            </table>
+        <div class="Mensagem"><h4>Insira os dados do pedido</h4></div>
+        <form>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">Código do item</span>
+                </div>
+                <input type="number" class="form-control" id="codItem" aria-describedby="basic-addon1">
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">Quantidade</span>
+                </div>
+                <input type="number" class="form-control" id="quant" aria-describedby="basic-addon1">
+            </div>
+            <div class="input-group mb-3" id="btnCalculaTotal">
+                <button type="submit" class="btn btn-primary" id="calculaTotal">Calcular total</button>
+            </div>
+        </form>
+
+        <table class="table table-bordered" id="total">
+            <thead id="totalHead">
+                <tr>
+                    <th>QUANTIDADE</th>
+                    <th>CÓDIGO</th>
+                    <th>TOTAL</th>
+                </tr>                        
+            </thead>
+        </table>
+            <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+            crossorigin="anonymous"></script>
+            <script src="js/pedidosScript.js"></script>
+    </body>
+</html>
